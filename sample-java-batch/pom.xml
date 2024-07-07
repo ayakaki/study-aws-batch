@@ -6,7 +6,7 @@
 
     <groupId>com.mystudy</groupId>
     <artifactId>sample-java-batch</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.0.1</version>
 
     <properties>
         <maven.compiler.source>18</maven.compiler.source>
