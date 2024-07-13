@@ -4,16 +4,22 @@ package com.mystudy;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Press Opt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        Integer arrLen = args.length;
 
-        // Press Ctrl+R or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        System.out.println("start process");
 
-            // Press Ctrl+D to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Cmd+F8.
-            System.out.println("i = " + i);
+        if(arrLen == 0){
+            System.out.println("0 argument");
+        }
+
+        if(arrLen >= 1){
+            System.out.println("more 1 argument");
+            System.out.println("arg1： " + args[0]);
+        }
+
+        if(arrLen >= 2){
+            System.out.println("more 2 arguments");
+            System.out.println("arg2： " + args[1]);
         }
     }
 }
